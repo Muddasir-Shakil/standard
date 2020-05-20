@@ -1,0 +1,26 @@
+type: standard
+name: Name / ID / Code of the standard/technology
+version: If needed, the specific version of the referred standard/technology
+release-date: Date of release of the specified version
+availability: >
+  Report the availability policy of the standard specification. If the access to the standard requires a fee, please specify it.
+description: >
+  Provide here a brief description of the standard and some key benefits that make it worth considering the standard as relevant for 1-Swarm.
+  You can use *markdown* syntax here.
+references: >
+  Put here a list of relevant web links or relevant related papers.
+  IMPORTANT: keep the list SHORT putting only USEFUL and NOT REDUNDANT references
+support: >
+  If applicable, provide a list of vendors/technology providers that support the standard or adopted the technology
+implementations:
+# If applicable, provide a list of the most relevant implementations of the standard/technology and indicate their availability (free, commercial, etc.), provider and cost
+  -
+    implementation-name: impl1
+    provider: provider1
+    license: open-source
+    cost: free
+  -
+    implementation-name: impl2
+    provider: provider2
+    license: commercial
+    cost: €50/year
